@@ -1,8 +1,11 @@
-import React from 'react';
+import React from "react";
+import Typography from "@material-ui/core/Typography";
 
 const Home = () => (
   <div>
-    <h1>Home</h1>
+    <Typography variant="h3" align="center" component="h1" gutterBottom>
+      Home
+    </Typography>
   </div>
 );
 

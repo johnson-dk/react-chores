@@ -1,8 +1,11 @@
-import React from 'react';
+import React from "react";
+import Typography from "@material-ui/core/Typography";
 
 const Landing = () => (
   <div>
-    <h1>Landing</h1>
+    <Typography variant="h3" align="center" component="h1" gutterBottom>
+      Landing
+    </Typography>
   </div>
 );
 
